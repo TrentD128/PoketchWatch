@@ -37,7 +37,7 @@ fun getDrawableResource(themeIndex: Int, assetName: String, context: Context): I
 
 // Dynamic theme composable
 @Composable
-fun SimplePoketchTheme(
+fun PoketchWatchTheme(
     themeIndex: Int, // Index to pick the theme
     content: @Composable () -> Unit
 ) {
